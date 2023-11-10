@@ -19,6 +19,11 @@ require('lazy').setup({
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
     'rebelot/kanagawa.nvim',
+    'folke/tokyonight.nvim',
+    'bluz71/vim-nightfly-colors',
+    'NLKNguyen/papercolor-theme',
+    'Mofiqul/dracula.nvim',
+    'joshdick/onedark.vim',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
     'theprimeagen/harpoon',
     'mbbill/undotree',
