@@ -1,4 +1,4 @@
 require("nvc.remap")
 require("nvc.set")
-require("nvc.packer")
+require("nvc.lazy")
 
