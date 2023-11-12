@@ -23,7 +23,17 @@ require('lazy').setup({
     'bluz71/vim-nightfly-colors',
     'NLKNguyen/papercolor-theme',
     'Mofiqul/dracula.nvim',
-    'joshdick/onedark.vim',
+    'ful1e5/onedark.nvim',
+    'projekt0n/github-nvim-theme',
+    'EdenEast/nightfox.nvim',
+    'nvim-lualine/lualine.nvim',
+    {
+       'stevearc/oil.nvim',
+        opts = {},
+        -- Optional dependencies
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    },
+    'preservim/nerdtree',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
     'theprimeagen/harpoon',
     'mbbill/undotree',

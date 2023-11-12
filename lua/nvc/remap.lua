@@ -1,5 +1,6 @@
 vim.g.mapleader = "\t"
-vim.keymap.set("n", "<leader><Enter>", vim.cmd.Ex)
+--vim.keymap.set("n", "<leader><Enter>", vim.cmd.Oil)
+vim.keymap.set("n", "<Backspace>", vim.cmd.Oil)
 
 -- Move block up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
