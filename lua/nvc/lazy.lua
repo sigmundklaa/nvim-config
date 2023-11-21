@@ -38,6 +38,7 @@ require('lazy').setup({
     'theprimeagen/harpoon',
     'mbbill/undotree',
     'tpope/vim-fugitive',
+    'tpope/vim-surround',
     {
         'lervag/vimtex',
         init = function()
