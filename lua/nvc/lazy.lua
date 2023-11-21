@@ -39,6 +39,13 @@ require('lazy').setup({
     'mbbill/undotree',
     'tpope/vim-fugitive',
     {
+        'lervag/vimtex',
+        init = function()
+            vim.g.vimtex_view_general_viewer = 'okular'
+            vim.g.vimtex_view_general_options = "--unique file:@pdf\\#src:@line@tex"
+        end
+    },
+    {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
         lazy = true,
