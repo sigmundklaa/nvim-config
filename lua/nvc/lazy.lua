@@ -39,6 +39,8 @@ require('lazy').setup({
     'mbbill/undotree',
     'tpope/vim-fugitive',
     'tpope/vim-surround',
+    'mfussenegger/nvim-dap',
+    'rcarriga/nvim-dap-ui',
     {
         'lervag/vimtex',
         init = function()
