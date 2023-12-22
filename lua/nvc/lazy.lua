@@ -33,7 +33,6 @@ require('lazy').setup({
         -- Optional dependencies
         dependencies = { "nvim-tree/nvim-web-devicons" }
     },
-    'preservim/nerdtree',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
     'theprimeagen/harpoon',
     'mbbill/undotree',
@@ -41,6 +40,11 @@ require('lazy').setup({
     'tpope/vim-surround',
     'mfussenegger/nvim-dap',
     'rcarriga/nvim-dap-ui',
+    {
+        'ellisonleao/glow.nvim',
+        config = true,
+        cmd = 'Glow',
+    },
     {
         'lervag/vimtex',
         init = function()
