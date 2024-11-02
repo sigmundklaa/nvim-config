@@ -2,18 +2,6 @@ vim.g.mapleader = "\t"
 --vim.keymap.set("n", "<leader><Enter>", vim.cmd.Oil)
 vim.keymap.set("n", "<Backspace>", vim.cmd.Oil)
 
--- DAP keybindings
-vim.keymap.set('n', '<Leader>dc', function() require('dap').continue() end)
-vim.keymap.set('n', '<Leader>dC', function() require('dap').restart() end)
-vim.keymap.set('n', '<C-n>', function() require('dap').step_over() end)
-vim.keymap.set('n', '<C-i>', function() require('dap').step_into() end)
-vim.keymap.set('n', '<C-e>', function() require('dap').step_out() end)
-vim.keymap.set('n', '<Leader>db', function() require('dap').toggle_breakpoint() end)
-vim.keymap.set('n', '<Leader>dB', function() require('dap').set_breakpoint() end)
-vim.keymap.set('n', '<Leader>dr', function() require('dap').repl.open() end)
-vim.keymap.set('n', '<Leader>ds', function() require('dap').terminate() end)
-vim.keymap.set('n', '<Leader>dt', function() require('dapui').toggle() end)
-
 -- Move block up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
