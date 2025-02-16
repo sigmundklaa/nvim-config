@@ -21,7 +21,7 @@ end)
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
-		'clangd', 'pylsp', 'bashls', 'neocmake', 'dockerls'	
+		'clangd', 'pylsp', 'bashls', 'neocmake', 'dockerls', 'vhdl_ls'
 	},
 	handlers={
 		lsp.default_setup,
